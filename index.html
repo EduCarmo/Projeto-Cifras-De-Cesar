@@ -15,7 +15,18 @@
 </head>
 
 <body>
-
+    <img class="imagem" src="./assets/cifra.jpeg" alt="">
+    <h1 class="destaque">Criptografe sua mensagem</h1>
+    <div class="campo texto">
+        <label for="para-criptografar">Digite sua mensagem</label>
+        <input type="text" class="entrada" id="para-criptografar">
+    </div>
+    <div class="campo seletor">
+        <label for="deslocamento">Mudar o início do alfabeto para:</label>
+        <select id="deslocamento" class="entrada"></select>
+    </div>
+    <button id="botao" class="botao">Criptografar</button>
+    <p class="invisivel" id="resposta"></p>
     <script src="script.js"></script>
 </body>
 
